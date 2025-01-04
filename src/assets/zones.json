@@ -261,7 +261,8 @@
     "y2": 1501.21,
     "z2": 200,
     "level": 1,
-    "text": " ESPN"
+    "text": " ESPN",
+    "strength": 10
   },
   {
     "name": "ESPN2",
@@ -273,7 +274,8 @@
     "y2": 1592.51,
     "z2": 200,
     "level": 1,
-    "text": " ESPN"
+    "text": " ESPN",
+    "strength": 10
   },
   {
     "name": "ESPN3",
@@ -285,7 +287,8 @@
     "y2": 1358.9,
     "z2": 200,
     "level": 1,
-    "text": " ESPN"
+    "text": " ESPN",
+    "strength": 10
   },
   {
     "name": "FINA",
@@ -381,7 +384,8 @@
     "y2": 744.17,
     "z2": 200,
     "level": 1,
-    "text": " CHINA"
+    "text": " CHINA",
+    "strength": 40
   },
   {
     "name": "SFDWT5",
@@ -405,7 +409,8 @@
     "y2": 578.396,
     "z2": 200,
     "level": 1,
-    "text": " THEA"
+    "text": " THEA",
+    "strength": 10
   },
   {
     "name": "THEA2",
@@ -429,7 +434,8 @@
     "y2": 458.411,
     "z2": 200,
     "level": 1,
-    "text": " THEA"
+    "text": " THEA",
+    "strength": 10
   },
   {
     "name": "GARC",
@@ -441,7 +447,8 @@
     "y2": 265.243,
     "z2": 200,
     "level": 1,
-    "text": " GARC"
+    "text": " GARC",
+    "strength": 40
   },
   {
     "name": "DOH1",
@@ -453,7 +460,8 @@
     "y2": -222.589,
     "z2": 200,
     "level": 1,
-    "text": " DOH"
+    "text": " DOH",
+    "strength": 10
   },
   {
     "name": "DOH2",
@@ -501,7 +509,8 @@
     "y2": 578.396,
     "z2": 200,
     "level": 1,
-    "text": " EASB"
+    "text": " EASB",
+    "strength": 40
   },
   {
     "name": "EASB2",
@@ -513,7 +522,8 @@
     "y2": 249.904,
     "z2": 200,
     "level": 1,
-    "text": " EASB"
+    "text": " EASB",
+    "strength": 40
   },
   {
     "name": "ESPE1",
@@ -1246,7 +1256,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " ELCO",
-    "gang": "GANG8"
+    "gang": "GANG8",
+    "strength": 40
   },
   {
     "name": "LIND1a",
@@ -1259,7 +1270,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " LIND",
-    "gang": "GANG1"
+    "gang": "GANG1",
+    "strength": 20
   },
   {
     "name": "LIND1b",
@@ -1272,7 +1284,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " LIND",
-    "gang": "GANG1"
+    "gang": "GANG1",
+    "strength": 20
   },
   {
     "name": "LIND2a",
@@ -1285,7 +1298,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " LIND",
-    "gang": "GANG1"
+    "gang": "GANG1",
+    "strength": 20
   },
   {
     "name": "LIND2b",
@@ -1298,7 +1312,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " LIND",
-    "gang": "GANG2"
+    "gang": "GANG2",
+    "strength": 30
   },
   {
     "name": "LDOC4",
@@ -1347,7 +1362,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " VERO",
-    "gang": "GANG1"
+    "gang": "GANG1",
+    "strength": 10
   },
   {
     "name": "VERO4b",
@@ -1360,7 +1376,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " VERO",
-    "gang": "GANG1"
+    "gang": "GANG1",
+    "strength": 10
   },
   {
     "name": "BLUF1b",
@@ -1397,7 +1414,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " ELCO",
-    "gang": "GANG8"
+    "gang": "GANG8",
+    "strength": 40
   },
   {
     "name": "VERO1",
@@ -1410,7 +1428,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " VERO",
-    "gang": "GANG1"
+    "gang": "GANG1",
+    "strength": 10
   },
   {
     "name": "MAR1",
@@ -1447,7 +1466,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " VERO",
-    "gang": "GANG1"
+    "gang": "GANG1",
+    "strength": 10
   },
   {
     "name": "VERO2",
@@ -1460,7 +1480,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " VERO",
-    "gang": "GANG1"
+    "gang": "GANG1",
+    "strength": 10
   },
   {
     "name": "CONF1b",
@@ -1569,7 +1590,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " LMEX",
-    "gang": "GANG8"
+    "gang": "GANG8",
+    "strength": 30
   },
   {
     "name": "LMEX1b",
@@ -1582,7 +1604,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " LMEX",
-    "gang": "GANG8"
+    "gang": "GANG8",
+    "strength": 30
   },
   {
     "name": "COM3",
@@ -1672,7 +1695,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " GLN",
-    "gang": "GANG1"
+    "gang": "GANG1",
+    "strength": 40
   },
   {
     "name": "GLN1b",
@@ -1709,7 +1733,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " JEF",
-    "gang": "GANG1"
+    "gang": "GANG1",
+    "strength": 40
   },
   {
     "name": "JEF2",
@@ -1722,7 +1747,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " JEF",
-    "gang": "GANG1"
+    "gang": "GANG1",
+    "strength": 40
   },
   {
     "name": "JEF1b",
@@ -1735,7 +1761,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " JEF",
-    "gang": "GANG1"
+    "gang": "GANG1",
+    "strength": 40
   },
   {
     "name": "JEF1a",
@@ -1748,7 +1775,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " JEF",
-    "gang": "GANG1"
+    "gang": "GANG1",
+    "strength": 40
   },
   {
     "name": "CHC1a",
@@ -1761,7 +1789,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " CHC",
-    "gang": "GANG3"
+    "gang": "GANG3",
+    "strength": 40
   },
   {
     "name": "CHC1b",
@@ -1774,7 +1803,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " CHC",
-    "gang": "GANG3"
+    "gang": "GANG3",
+    "strength": 40
   },
   {
     "name": "CHC2b",
@@ -1787,7 +1817,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " CHC",
-    "gang": "GANG3"
+    "gang": "GANG3",
+    "strength": 40
   },
   {
     "name": "CHC2a",
@@ -1800,7 +1831,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " CHC",
-    "gang": "GANG3"
+    "gang": "GANG3",
+    "strength": 40
   },
   {
     "name": "IWD5",
@@ -1826,7 +1858,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " GAN",
-    "gang": "GANG2"
+    "gang": "GANG2",
+    "strength": 40
   },
   {
     "name": "GAN1",
@@ -1839,7 +1872,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " GAN",
-    "gang": "GANG2"
+    "gang": "GANG2",
+    "strength": 40
   },
   {
     "name": "LIND4c",
@@ -1864,7 +1898,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " EBE",
-    "gang": "GANG3"
+    "gang": "GANG3",
+    "strength": 30
   },
   {
     "name": "EBE2a",
@@ -1877,7 +1912,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " EBE",
-    "gang": "GANG3"
+    "gang": "GANG3",
+    "strength": 30
   },
   {
     "name": "EBE2b",
@@ -1890,7 +1926,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " EBE",
-    "gang": "GANG3"
+    "gang": "GANG3",
+    "strength": 30
   },
   {
     "name": "ELS4",
@@ -1903,7 +1940,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " ELS",
-    "gang": "GANG1"
+    "gang": "GANG1",
+    "strength": 30
   },
   {
     "name": "ELS3a",
@@ -1916,7 +1954,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " ELS",
-    "gang": "GANG2"
+    "gang": "GANG2",
+    "strength": 30
   },
   {
     "name": "JEF3b",
@@ -1929,7 +1968,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " JEF",
-    "gang": "GANG1"
+    "gang": "GANG1",
+    "strength": 40
   },
   {
     "name": "ELS3b",
@@ -1942,7 +1982,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " ELS",
-    "gang": "GANG1"
+    "gang": "GANG1",
+    "strength": 30
   },
   {
     "name": "ELS3c",
@@ -1967,7 +2008,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " ELS",
-    "gang": "GANG1"
+    "gang": "GANG1",
+    "strength": 30
   },
   {
     "name": "ELS1b",
@@ -1980,7 +2022,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " ELS",
-    "gang": "GANG1"
+    "gang": "GANG1",
+    "strength": 30
   },
   {
     "name": "ELS2",
@@ -1993,7 +2036,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " ELS",
-    "gang": "GANG1"
+    "gang": "GANG1",
+    "strength": 40
   },
   {
     "name": "LFL1a",
@@ -2006,7 +2050,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " LFL",
-    "gang": "GANG3"
+    "gang": "GANG3",
+    "strength": 40
   },
   {
     "name": "LFL1b",
@@ -2019,7 +2064,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " LFL",
-    "gang": "GANG3"
+    "gang": "GANG3",
+    "strength": 40
   },
   {
     "name": "EBE1",
@@ -2032,7 +2078,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " EBE",
-    "gang": "GANG3"
+    "gang": "GANG3",
+    "strength": 30
   },
   {
     "name": "CHC4a",
@@ -2045,7 +2092,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " CHC",
-    "gang": "GANG3"
+    "gang": "GANG3",
+    "strength": 40
   },
   {
     "name": "CHC4b",
@@ -2058,7 +2106,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " CHC",
-    "gang": "GANG3"
+    "gang": "GANG3",
+    "strength": 40
   },
   {
     "name": "CHC3",
@@ -2071,7 +2120,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " CHC",
-    "gang": "GANG3"
+    "gang": "GANG3",
+    "strength": 40
   },
   {
     "name": "LDT5",
@@ -2264,7 +2314,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " SUN",
-    "gang": "GANG2"
+    "gang": "GANG2",
+    "strength": 30
   },
   {
     "name": "SUN3b",
@@ -2277,7 +2328,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " SUN",
-    "gang": "GANG2"
+    "gang": "GANG2",
+    "strength": 30
   },
   {
     "name": "SUN3c",
@@ -2290,7 +2342,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " SUN",
-    "gang": "GANG2"
+    "gang": "GANG2",
+    "strength": 30
   },
   {
     "name": "MUL7a",
@@ -2339,7 +2392,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " VIN",
-    "gang": "GANG2"
+    "gang": "GANG2",
+    "strength": 10
   },
   {
     "name": "SUN1",
@@ -2352,7 +2406,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " SUN",
-    "gang": "GANG2"
+    "gang": "GANG2",
+    "strength": 30
   },
   {
     "name": "SUN4",
@@ -2365,7 +2420,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " SUN",
-    "gang": "GANG2"
+    "gang": "GANG2",
+    "strength": 30
   },
   {
     "name": "SUN2",
@@ -2474,7 +2530,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " SMB",
-    "gang": "GANG2"
+    "gang": "GANG2",
+    "strength": 10
   },
   {
     "name": "SMB2",
@@ -2487,7 +2544,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " SMB",
-    "gang": "GANG2"
+    "gang": "GANG2",
+    "strength": 10
   },
   {
     "name": "ROD5b",
@@ -3940,7 +3998,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " GLN",
-    "gang": "GANG1"
+    "gang": "GANG1",
+    "strength": 40
   },
   {
     "name": "LDOC3a",
@@ -4493,7 +4552,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " PLS",
-    "gang": "GANG2"
+    "gang": "GANG2",
+    "strength": 30
   },
   {
     "name": "LDOC3c",
@@ -4554,7 +4614,8 @@
     "z2": 110.916,
     "level": 1,
     "text": " LIND",
-    "gang": "GANG2"
+    "gang": "GANG2",
+    "strength": 30
   },
   {
     "name": "LIND4a",

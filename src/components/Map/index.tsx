@@ -7,7 +7,7 @@ const GangMap: React.FC = () => {
     <>
       <img src="images/6000.jpg" alt="" />
       {zones.map((zone, index) => {
-        const { x1, y1, x2, y2, name, gang } = zone;
+        const { x1, y1, x2, y2, name, gang, strength } = zone;
         return (
           <Zone
             key={index}
@@ -17,6 +17,7 @@ const GangMap: React.FC = () => {
             y2={y2}
             name={name}
             gang={gang}
+            strength={strength}
           />
         );
       })}

@@ -10,9 +10,10 @@ interface Zone {
   level?: number;
   text?: string;
   gang?: string;
+  strength?: number;
 }
 
-const Zone: React.FC<Zone> = ({ x1, y1, x2, y2, name, gang }) => {
+const Zone: React.FC<Zone> = ({ x1, y1, x2, y2, name, gang, strength = 20 }) => {
   const imageSize = 6000;
 
   const transformCoordinates = (x: number, y: number) => {
@@ -24,26 +25,27 @@ const Zone: React.FC<Zone> = ({ x1, y1, x2, y2, name, gang }) => {
   const topLeft = transformCoordinates(x1, y2);
   const bottomRight = transformCoordinates(x2, y1);
 
-  const pickColours = (gang: string) => {
+  const pickColours = (gang: string, strength: number) => {
+    const opacity = Math.min(Math.max(strength / 100, 0), 1);
     switch (gang) {
       case 'GANG1':
         return {
-          bg: 'rgba(204, 0, 204, 0.2)',
+          bg: `rgba(204, 0, 204, ${opacity})`,
           border: '1px solid rgba(204, 0, 204, 0.8)',
-        };
+        }
       case 'GANG2':
         return {
-          bg: 'rgba(0, 153, 0, 0.2)',
+          bg: `rgba(0, 153, 0, ${opacity})`,
           border: '1px solid rgba(0, 153, 0, 0.8)',
         };
       case 'GANG3':
         return {
-          bg: 'rgba(255, 255, 0, 0.2)',
+          bg: `rgba(255, 255, 0, ${opacity})`,
           border: '1px solid rgba(255, 255, 0, 0.8)',
         };
       case 'GANG8':
         return {
-          bg: 'rgba(0, 255, 255, 0.2)',
+          bg: `rgba(0, 255, 255, ${opacity})`,
           border: '1px solid rgba(0, 255, 255, 0.8)',
         };
       default:
@@ -54,7 +56,7 @@ const Zone: React.FC<Zone> = ({ x1, y1, x2, y2, name, gang }) => {
     }
   };
 
-  const gangColour = pickColours(gang ?? 'default');
+  const gangColour = pickColours(gang ?? 'default', strength);
 
   const boxStyle: React.CSSProperties = {
     position: 'absolute',
