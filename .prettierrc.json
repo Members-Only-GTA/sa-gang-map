@@ -1,0 +1,14 @@
+{
+  "semi": true,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "bracketSameLine": false,
+  "overrides": [
+    {
+      "files": "*.{j,t}s{,x}",
+      "options": {
+        "parser": "typescript"
+      }
+    }
+  ]
+}
