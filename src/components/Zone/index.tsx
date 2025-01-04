@@ -64,13 +64,22 @@ const Zone: React.FC<Zone> = ({ x1, y1, x2, y2, name, gang, strength = 20 }) => 
     top: `${topLeft.pixelY}px`,
     width: `${bottomRight.pixelX - topLeft.pixelX}px`,
     height: `${bottomRight.pixelY - topLeft.pixelY}px`,
-    backgroundColor: gangColour.bg, // Translucent red
-    border: gangColour.border, // Border for visibility
+    backgroundColor: gangColour.bg,
+    border: gangColour.border,
+    color: 'white',
+    fontSize: '16px',
+    fontWeight: 'bold',
+    textAlign: 'center',
+    lineHeight: `${bottomRight.pixelY - topLeft.pixelY}px`,
+    overflow: 'hidden',
   };
 
   return (
     <div style={boxStyle} title={name}>
       {name}
+      <span style={{ fontSize: '12px', fontWeight: 'normal' }}>
+        {strength ? ` [${strength}]` : ''}
+      </span>
     </div>
   );
 };
