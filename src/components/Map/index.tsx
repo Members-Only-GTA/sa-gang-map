@@ -41,7 +41,6 @@ const GangMap: React.FC = () => {
   }, [imageSize.width, imageSize.height]);
 
   const handleWheel = (event: React.WheelEvent) => {
-    event.preventDefault();
     const zoomStep = 0.1;
     const { clientX, clientY } = event;
     const rect = containerRef.current?.getBoundingClientRect();

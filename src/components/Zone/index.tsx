@@ -13,7 +13,7 @@ interface Zone {
   strength?: number;
 }
 
-const Zone: React.FC<Zone> = ({ x1, y1, x2, y2, name, gang, strength = 20 }) => {
+const Zone: React.FC<Zone> = ({ x1, y1, x2, y2, name, gang, strength }) => {
   const imageSize = 6000;
 
   const transformCoordinates = (x: number, y: number) => {
@@ -56,7 +56,7 @@ const Zone: React.FC<Zone> = ({ x1, y1, x2, y2, name, gang, strength = 20 }) => 
     }
   };
 
-  const gangColour = pickColours(gang ?? 'default', strength);
+  const gangColour = pickColours(gang ?? 'default', strength ?? 0);
 
   const boxStyle: React.CSSProperties = {
     position: 'absolute',
@@ -69,6 +69,7 @@ const Zone: React.FC<Zone> = ({ x1, y1, x2, y2, name, gang, strength = 20 }) => 
     color: 'white',
     fontSize: '16px',
     fontWeight: 'bold',
+    textShadow: '1px 1px 1px black',
     textAlign: 'center',
     lineHeight: `${bottomRight.pixelY - topLeft.pixelY}px`,
     overflow: 'hidden',
@@ -77,9 +78,11 @@ const Zone: React.FC<Zone> = ({ x1, y1, x2, y2, name, gang, strength = 20 }) => 
   return (
     <div style={boxStyle} title={name}>
       {name}
-      <span style={{ fontSize: '12px', fontWeight: 'normal' }}>
-        {strength ? ` [${strength}]` : ''}
-      </span>
+      {strength !== undefined && (
+  <span style={{ fontSize: '12px', fontWeight: 'normal' }}>
+    {` [${strength}]`}
+  </span>
+)}
     </div>
   );
 };
